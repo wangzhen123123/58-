@@ -1,0 +1,418 @@
+@charset "UTF-8";
+.prefecture {
+  padding: 60px 0;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.prefecture > h2 {
+  height: 60px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.prefecture > h2 img {
+  height: 100%;
+}
+
+.prefecture .classify {
+  position: relative;
+}
+
+.prefecture .classify ul {
+  text-align: center;
+}
+
+.prefecture .classify ul::after {
+  content: '';
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.prefecture .classify ul li {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.prefecture .classify ul li:last-child::after {
+  content: 'NEW';
+  background-color: #f05124;
+  color: #FFF;
+  position: absolute;
+  top: -20px;
+  left: 80px;
+  border-radius: 15px;
+  padding: 0 5px;
+  font-size: 12px;
+}
+
+.prefecture .classify ul li:first-child h2 {
+  border-left: none;
+}
+
+.prefecture .classify ul li a {
+  text-align: center;
+}
+
+.prefecture .classify ul li a h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+  height: 18px;
+  line-height: 1;
+  font-size: 17px;
+  color: #333;
+  font-weight: 600;
+  padding: 0 35px;
+  border-left: 2px solid #ebebeb;
+}
+
+.prefecture .classify ul li a p {
+  height: 30px;
+  line-height: 30px;
+  color: #ddd;
+  font-size: 12px;
+}
+
+.banner2 {
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+
+.banner2 .title2 {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.banner2 .title2 h2 {
+  font-size: 48px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.banner2 .title2 P {
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 10px;
+}
+
+.banner2 .title2 a {
+  display: inline-block;
+  color: #FFF;
+  background-color: #333;
+  line-height: 30px;
+  padding: 5px 30px;
+  margin-top: 15px;
+}
+
+.banner2 .ban2 {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.banner2 .ban2 .swiper-wrapper {
+  width: 100%;
+  border-bottom: 5px solid #666;
+  padding-bottom: 40px;
+}
+
+.banner2 .ban2 .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+}
+
+.banner2 .ban2 .swiper-wrapper .swiper-slide a span {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.main3 {
+  background-color: #0c1011;
+  width: 100%;
+}
+
+.main3 .shoping {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.main3 .shoping:last-child {
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+.main3 .shoping .box1 {
+  position: relative;
+  padding-top: 50px;
+}
+
+.main3 .shoping .box1 .top {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 55px;
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main3 .shoping .box1 .top h2 {
+  margin-left: 30px;
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.main3 .shoping .box1 .top h2 img {
+  height: 43px;
+  width: auto;
+}
+
+.main3 .shoping .box1 .top .do_someing {
+  display: inline-block;
+  height: 114px;
+  width: 600px;
+  background-image: url(../img/text-something.svg);
+  background-size: 100% 100%;
+  background-position: top center;
+  text-align: left;
+}
+
+.main3 .shoping .box1 .shop1 {
+  background-color: #fff;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  transition: all 1s;
+  height: 830px;
+}
+
+.main3 .shoping .box1 .shop1 .right {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity {
+  transition: all 1s;
+  padding: 10px;
+  width: 285px;
+  position: relative;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod {
+  transition: all 1s;
+  z-index: 100;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > a > img {
+  width: 100%;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > p {
+  width: 100%;
+  height: 30px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 8px;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > ul {
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > ul .prev {
+  background: url(../img/向左.png) no-repeat center center;
+  display: inline-block;
+  height: 30px;
+  background-size: 18px 18px;
+  width: 30px;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > ul .next {
+  background: url(../img/向右.png) no-repeat center center;
+  display: inline-block;
+  background-size: 18px 18px;
+  height: 30px;
+  width: 30px;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > ul li {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #eee;
+  margin: 0 4px;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > ul li img {
+  width: 100%;
+  height: 100%;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > h6 {
+  margin-top: 5px;
+}
+
+.main3 .shoping .box1 .shop1 .right .commodity .bod > h6 a {
+  height: 25px;
+  line-height: 25px;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.main3 .shoping .box1 .shop1 .right .hove {
+  top: -30px;
+}
+
+.main3 .shoping .box1 .shop1 .right .hove .bod {
+  height: 385px;
+  box-shadow: 0 0 10px 1px rgba(156, 156, 156, 0.4);
+  -webkit-box-shadow: 0 0 10px 1px rgba(156, 156, 156, 0.4);
+  -moz-box-shadow: 0 0 10px 1px rgba(156, 156, 156, 0.4);
+  z-index: 100;
+}
+
+.main3 .shoping .box1 .shop1 .right .hove .bod p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  white-space: initial;
+  -webkit-box-orient: vertical;
+  height: 50px;
+}
+
+.main3 .shoping .box1 .shop1 .right .hove .bod ul {
+  height: 40px;
+}
+
+.main3 .shoping .box1 .shop1 .lines {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  background-image: url(../img/line-dashed.svg);
+  background-repeat: no-repeat;
+  background-size: 1000px auto;
+  background-position: 30px 8px;
+}
+
+.main3 .shoping .box1 .shop1 .lines a {
+  font-family: MFMingHei;
+  font-style: italic;
+  transform: scaleY(1.5);
+  display: inline-block;
+  width: 120px;
+  height: 26px;
+  margin-right: 30px;
+  font-size: 25px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #d00;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center right;
+  font-weight: 600;
+  transform: scaleY(1.2);
+}
+
+.box7 {
+  padding: 50px 0;
+  width: 100%;
+  background-color: #f00;
+}
+
+.box7 h2 {
+  background: url(../img/text-followus-w.svg) no-repeat center center;
+  height: 34px;
+  background-size: auto 100%;
+}
+
+.box7 p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 40px;
+  margin-top: 5px;
+}
+
+.box7 .we_wo {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.box7 .we_wo ul {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.box7 .we_wo ul li {
+  float: left;
+  position: relative;
+}
+
+.box7 .we_wo ul li .erweima {
+  display: none;
+  z-index: 2;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: -190px;
+  left: -40px;
+}
+
+.box7 .we_wo ul li .erweima::after {
+  content: '';
+  border: 8px solid transparent;
+  border-top-color: #fff;
+  position: absolute;
+  bottom: -16px;
+  left: 45%;
+}
+
+.box7 .we_wo ul li .erweima img {
+  width: 100%;
+  height: 100%;
+}
+
+.box7 .we_wo ul li a {
+  display: inline-block;
+  height: 85px;
+  width: 85px;
+  margin: 0 15px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 80px auto;
+  background-position: center center;
+}
+
+.box7 .we_wo ul li a:first-child {
+  background: url(../img/wechat-w.svg) no-repeat;
+}
+
+.box7 .we_wo ul li:last-child a {
+  background: url(../img/weibo-w.svg) no-repeat;
+}
